@@ -1,0 +1,12 @@
+
+{% extends 'main.html' %}
+
+{% block content %}
+
+{% if project %}
+<h3>Project ID: {{project.id}}</h3>
+<h4>Project Title: {{project.title}}</h4>
+<p>Project Description: {{project.description}}</p>
+{% endif %}
+
+{% endblock content %}
