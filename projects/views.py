@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-
 # Create your views here.
 
 projectsList = [
@@ -14,6 +13,7 @@ projectsList = [
     {'id': '3', 'title': 'Social Network', 'description': 'An open source project built by the community'}
 
 ]
+
 
 def projects(request):
     page = "Hello from Khalil Adib"
